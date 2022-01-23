@@ -1,6 +1,5 @@
 import React from "react";
 import PropTypes from "prop-types";
-import Ticket from "./Ticket";
 
 function TicketDetail(props) {
   const { ticket } = props;
