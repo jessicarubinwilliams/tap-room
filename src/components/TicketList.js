@@ -6,11 +6,12 @@ function TicketList(props){
   return (
     <React.Fragment>
       <hr/>
-        {props.ticketList.map((ticket, index) =>
+        {props.ticketList.map((ticket) =>
           <Ticket names={ticket.names}
             location={ticket.location}
             issue={ticket.issue}
-            key={index}/>
+            id={ticket.id}
+            key={index.id}/>
         )}
   </React.Fragment>
   );
