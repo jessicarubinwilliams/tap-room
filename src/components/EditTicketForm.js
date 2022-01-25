@@ -1,5 +1,4 @@
 import React from "react";
-import ReusableForm from "./ReusableForm";
 import PropTypes from "prop-types";
 
 function EditTicketForm(props) {
@@ -17,9 +16,23 @@ function handleEditTicketFormSubmission(event) {
 
   return (
     <React.Fragment>
-      <ReusableForm
-        formSubmissionHandler={handleEditTicketFormSubmission}
-        buttonText="Update Ticket" />
+      <form onSubmit={handleEditTicketFormSubmission}>
+        <input
+          type="text"
+          name="names"
+          placeholder="Pair Names" 
+          defaultValue={ticket.names} />
+        <input
+          type="text"
+          name="location"
+          placeholder="Location" 
+          defaultValue={ticket.location} />
+        <textarea
+          name="issue"
+          placeholder="Describe your issue" 
+          defaultValue={ticket.issue} />
+        <button type="submit">Update Ticket</button>
+      </form>
     </React.Fragment>
   );
 }
