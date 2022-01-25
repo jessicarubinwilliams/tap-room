@@ -10,7 +10,7 @@ function handleEditTicketFormSubmission(event) {
   props.onEditTicket({
     names: event.target.names.value,
     location: event.target.location.value,
-    issue: event.target.location.value,
+    issue: event.target.issue.value,
     id: ticket.id
   });
 }
