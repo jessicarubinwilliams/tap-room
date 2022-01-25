@@ -10,6 +10,7 @@ function handleEditTicketFormSubmission(event) {
     names: event.target.names.value,
     location: event.target.location.value,
     issue: event.target.issue.value,
+    pintsRemaining: event.target.pintsRemaining.value,
     id: ticket.id
   });
 }
@@ -31,6 +32,11 @@ function handleEditTicketFormSubmission(event) {
           name="issue"
           placeholder="Describe your issue" 
           defaultValue={ticket.issue} />
+        <input
+          type="number"
+          name="pintsRemaining"
+          placeholder="Number of pints remaining in this keg"
+          defaultValue={ticket.pintsRemaining} />
         <button type="submit">Update Ticket</button>
       </form>
     </React.Fragment>
