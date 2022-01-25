@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-function Ticket(props){
+function Ticket(props) {
   return (
     <React.Fragment>
       <div onClick = {() => props.whenTicketClicked(props.id)}>

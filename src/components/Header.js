@@ -1,7 +1,7 @@
 import React from "react";
 import dachshundImage from "./../img/dachshundImage.jpeg";
 
-function Header(){
+function Header() {
   return (
     <React.Fragment>
       <h1>Help Queue</h1>
