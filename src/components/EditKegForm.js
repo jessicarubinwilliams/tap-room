@@ -30,6 +30,7 @@ function handleEditKegFormSubmission(event) {
           defaultValue={keg.brand} />
         <input
           type="number"
+          step="0.01"
           name="pintPrice"
           placeholder="Price per pint" 
           defaultValue={keg.pintPrice} />
