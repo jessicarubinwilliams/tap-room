@@ -60,7 +60,8 @@ class KegControl extends React.Component {
       name: kegToDecrement.name,
       brand: kegToDecrement.brand,
       pintPrice: kegToDecrement.pintPrice,
-      pintsRemaining: kegToDecrement.pintsRemaining --,
+      brix: kegToDecrement.brix,
+      pintsRemaining: kegToDecrement.pintsRemaining - 1,
       id: kegToDecrement.id
     }
     const editedMainKegList = this.state.mainKegList
