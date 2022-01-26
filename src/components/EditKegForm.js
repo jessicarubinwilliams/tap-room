@@ -36,6 +36,11 @@ function handleEditKegFormSubmission(event) {
           defaultValue={keg.pintPrice} />
         <input
           type="number"
+          name="brix"
+          placeholder="% Brix"
+          defaultValue={keg.brix} />
+        <input
+          type="number"
           name="pintsRemaining"
           placeholder="Pints remaining"
           defaultValue={keg.pintsRemaining} />

@@ -6,7 +6,7 @@ function NewKegForm(props) {
 
   function handleNewKegFormSubmission(event) {
     event.preventDefault();
-    props.onNewKegCreation({name: event.target.name.value, brand: event.target.brand.value, pintPrice: event.target.pintPrice.value, id: v4(), pintsRemaining: 124});
+    props.onNewKegCreation({name: event.target.name.value, brand: event.target.brand.value, pintPrice: event.target.pintPrice.value, id: v4(), pintsRemaining: 124, brix: event.target.brix.value});
   }
 
   return (
@@ -25,6 +25,10 @@ function NewKegForm(props) {
           step="0.01"
           name="pintPrice"
           placeholder="Price per pint" />
+        <input
+          type="number"
+          name="brix"
+          placeholder="% Brix" />
         <button type="submit">Add this keg</button>
       </form>
     </React.Fragment>
