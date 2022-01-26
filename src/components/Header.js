@@ -1,11 +1,11 @@
 import React from "react";
-import dachshundImage from "./../img/dachshundImage.jpeg";
+import kombuchaTaps from "./../img/kombuchaTaps.webp";
 
 function Header() {
   return (
     <React.Fragment>
-      <h1>Help Queue</h1>
-      <img src={dachshundImage} alt="A longhaired dachshund running on a sandy beach at the waters edge" />
+      <h1>Kombucha Bar Inventory System</h1>
+      <img src={kombuchaTaps} alt="Four stainless steep kombucha taps" />
     </React.Fragment>
   );
 }
