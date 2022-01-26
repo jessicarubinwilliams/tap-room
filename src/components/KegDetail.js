@@ -7,12 +7,12 @@ function KegDetail(props) {
   return (
     <React.Fragment>
       <h1>Keg Detail</h1>
-      <h3>{keg.brand} - {keg.name}</h3>
+      <h3>{keg.name} - {keg.brand}</h3>
       <p><em>{keg.pintPrice}</em></p>
       <h3>Pints remaining: {keg.pintsRemaining}  </h3>
       <button onClick={ () => onClickingSellAPint(keg) }>Sell A Pint</button>
       <button onClick={ onClickingEdit }>Update Keg</button>
-      <button onClick={ () => onClickingDelete(keg.id) }>Close Keg</button>
+      <button onClick={ () => onClickingDelete(keg.id) }>Retire Keg</button>
       <hr/>
     </React.Fragment>
   );
