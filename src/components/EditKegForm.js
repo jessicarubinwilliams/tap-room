@@ -9,8 +9,9 @@ function handleEditKegFormSubmission(event) {
   props.onEditKeg({
     name: event.target.name.value,
     brand: event.target.brand.value,
-    pintPrice: event.target.pintPrice.value,
-    pintsRemaining: event.target.pintsRemaining.value,
+    pintPrice: parseFloat(event.target.pintPrice.value),
+    brix: parseInt(event.target.brix.value),
+    pintsRemaining: parseInt(event.target.pintsRemaining.value),
     id: keg.id
   });
 }
