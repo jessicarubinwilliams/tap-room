@@ -37,7 +37,7 @@ function handleEditKegFormSubmission(event) {
         <input
           type="number"
           name="pintsRemaining"
-          placeholder="Number of pints remaining in this keg"
+          placeholder="Pints remaining"
           defaultValue={keg.pintsRemaining} />
         <button type="submit">Update Keg</button>
       </form>
