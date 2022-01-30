@@ -1,70 +1,54 @@
-# Getting Started with Create React App
+# _Tap Room_
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+#### _A React application with full CRUD capability for tracking the keg inventory of a fictional kombucha bar._
 
-## Available Scripts
+#### _By **Jessica R. Williams**_
 
-In the project directory, you can run:
+#### _Table of Contents_
 
-### `npm start`
+1. [Technologies Used](#technologies)
+2. [Description](#description)
+3. [Setup/Installation Requirements](#setup)
+4. [React Component Diagram](#diagram)
+5. [Known Bugs](#bugs)
+6. [License](#license)
+7. [Contact Information](#contact)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Technologies Used <a id="technologies"></a>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+* _npm 7.20.3_
+* _React 17.0.2_
+* _React Dom 17.0.2_
+* _React Scripts 3.2.0_
 
-### `npm test`
+## Description <a id="description"></a>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+_A React application with full CRUD capability for tracking the keg inventory of a fictional kombucha bar. Create using create-react-app._
 
-### `npm run build`
+_The user may add, update, view details, and delete a keg. The user may also sell a pint from a keg, thus reducing the number of pints remaining in the keg._
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Setup/Installation Requirements <a id="setup"></a>
 
-The build is minified and the filename include the hashes.\
-Your app is ready to be deployed!
+* _Open the terminal on your local machine_
+* _If [Node.js](https://nodejs.org/en/) and [Nope Package Manager (npm)](https://www.npmjs.com/) are not installed on your local device, follow the instructions [here](https://www.learnhowtoprogram.com/intermediate-javascript/getting-started-with-javascript/installing-node-js)_
+* _Navigate to the directory inside of which you wish to house this project_
+* _Clone this project with the following git command `$ git clone <https://github.com/jessicarubinwilliams/tap-room>`_
+* _Navigate to the top level of the repository with the command `$ cd project`_
+* _Recreate project environment and install required dependencies with terminal command `$ npm install`_
+* _Create production environment with terminal command `$ npm run build`_
+* _Open project in a development server in the browser of your choice with the command `$ npm run start`_
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## React Component Diagram <a id="diagram"></a>
 
-### `npm run eject`
+<img src="./src/img/tapRoomComponentDiagram.png" alt="Color-coded diagram of the application's function and class components." width="75%">
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Known Bugs <a id="bugs"></a>
+* _No known bugs_
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## License <a id="license"></a>
+*[MIT](https://choosealicense.com/licenses/mit/)*
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Copyright (c) **_2021 Jessica R. Williams_**
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Contact Information <a id="contact"></a>
+**_Jessica R. Williams [mailto](mailto:jessicarubinwilliams@gmail.com)_**
